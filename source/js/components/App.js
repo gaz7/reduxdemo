@@ -1,14 +1,14 @@
 
-import React from 'react'
-import AddMutter from '../containers/AddMutter'
-import LoadedMutters from '../containers/LoadedMutters'
+import React from 'react';
+import MutterForm from '../containers/MutterForm';
+import LoadedMutters from '../containers/LoadedMutters';
 
 const App = () => (
-  <div className="container">
-    <h1>Mutterings</h1>
-    <AddMutter />
-    <LoadedMutters />
-  </div>
-)
+    <div className="container">
+        <h1>Mutterings</h1>
+        <MutterForm />
+        <LoadedMutters />
+    </div>
+);
 
 export default App
